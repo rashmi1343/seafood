@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.TermsConditionActivity">
+    <RelativeLayout
+        android:id="@+id/rlheaderbarcontact"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@color/color_header">
+
+        <ImageView
+            android:id="@+id/backicon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@mipmap/left_arrow" />
+
+
+        <ImageView
+            android:id="@+id/main_logo"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/seafood_home_icon" />
+
+
+        <ImageView
+            android:id="@+id/closeicon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:src="@mipmap/cross_icon" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+
+                android:id="@+id/tvtermsandconditions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="10sp"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:lineSpacingExtra="2dp"
+                android:text="@string/termsandconditions"
+                android:textColor="#343a40"
+                android:textSize="18dp" />
+
+            <TextView
+
+                android:id="@+id/tvconditionone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="10sp"
+                android:gravity="start"
+                android:includeFontPadding="false"
+                android:lineSpacingExtra="2dp"
+                android:text="@string/conditionone"
+                android:textColor="#343a40"
+                android:textSize="15dp" />
+
+            <TextView
+
+                android:id="@+id/tvconditiontwo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="10sp"
+                android:gravity="start"
+                android:includeFontPadding="false"
+                android:lineSpacingExtra="2dp"
+                android:text="@string/conditiontwo"
+                android:textColor="#343a40"
+                android:textSize="15dp" />
+
+            <TextView
+
+                android:id="@+id/tvconditionthree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="10sp"
+                android:gravity="start"
+                android:includeFontPadding="false"
+                android:lineSpacingExtra="2dp"
+                android:text="@string/conditionthree"
+                android:textColor="#343a40"
+                android:textSize="15dp" />
+
+            <TextView
+
+                android:id="@+id/tvconditionfour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="10sp"
+                android:gravity="start"
+                android:includeFontPadding="false"
+                android:lineSpacingExtra="2dp"
+                android:text="@string/conditionfour"
+                android:textColor="#343a40"
+                android:textSize="15dp" />
+
+            <TextView
+
+                android:id="@+id/tvconditionfive"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="10sp"
+                android:gravity="start"
+                android:includeFontPadding="false"
+                android:lineSpacingExtra="2dp"
+                android:text="@string/conditionfive"
+                android:textColor="#343a40"
+                android:textSize="15dp" />
+
+            <TextView
+
+                android:id="@+id/tvconditionsix"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="10sp"
+                android:gravity="start"
+                android:includeFontPadding="false"
+                android:lineSpacingExtra="2dp"
+                android:text="@string/conditionsix"
+                android:textColor="#343a40"
+                android:textSize="15dp" />
+
+            <TextView
+
+                android:id="@+id/tvconditionseven"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="10sp"
+                android:gravity="start"
+                android:includeFontPadding="false"
+                android:lineSpacingExtra="2dp"
+                android:text="@string/conditionseven"
+                android:textColor="#343a40"
+                android:textSize="15dp" />
+
+            <TextView
+
+                android:id="@+id/tvconditioneight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="10sp"
+                android:gravity="start"
+                android:includeFontPadding="false"
+                android:lineSpacingExtra="2dp"
+                android:text="@string/conditioneight"
+                android:textColor="#343a40"
+                android:textSize="15dp" />
+
+            <TextView
+
+                android:id="@+id/tvconditionnine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="10sp"
+                android:gravity="start"
+                android:includeFontPadding="false"
+                android:lineSpacingExtra="2dp"
+                android:text="@string/conditionnine"
+                android:textColor="#343a40"
+                android:textSize="15dp" />
+
+            <TextView
+
+                android:id="@+id/tvconditionten"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="10sp"
+                android:gravity="start"
+                android:includeFontPadding="false"
+                android:lineSpacingExtra="2dp"
+                android:text="@string/conditionten"
+                android:textColor="#343a40"
+                android:textSize="15dp" />
+
+            <TextView
+
+                android:id="@+id/tvcondition11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="10sp"
+                android:gravity="start"
+                android:includeFontPadding="false"
+                android:lineSpacingExtra="2dp"
+                android:text="@string/condition11"
+                android:textColor="#343a40"
+                android:textSize="15dp" />
+
+            <TextView
+
+                android:id="@+id/tvcondition12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="10sp"
+                android:gravity="start"
+                android:includeFontPadding="false"
+                android:lineSpacingExtra="2dp"
+                android:text="@string/condition12"
+                android:textColor="#343a40"
+                android:textSize="15dp" />
+
+            <TextView
+
+                android:id="@+id/tvcondition13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="10sp"
+                android:gravity="start"
+                android:includeFontPadding="false"
+                android:lineSpacingExtra="2dp"
+                android:text="@string/condition13"
+                android:textColor="#343a40"
+                android:textSize="15dp" />
+
+            <TextView
+
+                android:id="@+id/tvcondition14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="10sp"
+                android:gravity="start"
+                android:includeFontPadding="false"
+                android:lineSpacingExtra="2dp"
+                android:text="@string/condition14"
+                android:textColor="#343a40"
+                android:textSize="15dp" />
+
+            <TextView
+
+                android:id="@+id/tvcondition15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="10sp"
+                android:gravity="start"
+                android:includeFontPadding="false"
+                android:lineSpacingExtra="2dp"
+                android:text="@string/condition15"
+                android:textColor="#343a40"
+                android:textSize="15dp" />
+
+            <TextView
+
+                android:id="@+id/tvcondition16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="10sp"
+                android:gravity="start"
+                android:includeFontPadding="false"
+                android:lineSpacingExtra="2dp"
+                android:text="@string/condition16"
+                android:textColor="#343a40"
+                android:textSize="15dp" />
+
+            <TextView
+
+                android:id="@+id/tvcondition17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="10sp"
+                android:gravity="start"
+                android:includeFontPadding="false"
+                android:lineSpacingExtra="2dp"
+                android:text="@string/condition17"
+                android:textColor="#343a40"
+                android:textSize="15dp" />
+
+            <TextView
+
+                android:id="@+id/tvcondition18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="10sp"
+                android:gravity="start"
+                android:includeFontPadding="false"
+                android:lineSpacingExtra="2dp"
+                android:text="@string/condition18"
+                android:textColor="#343a40"
+                android:textSize="15dp" />
+
+            <TextView
+
+                android:id="@+id/tvcondition19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="10sp"
+                android:gravity="start"
+                android:includeFontPadding="false"
+                android:lineSpacingExtra="2dp"
+                android:text="@string/condition19"
+                android:textColor="#343a40"
+                android:textSize="15dp" />
+
+            <TextView
+
+                android:id="@+id/tvcondition20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="10sp"
+                android:gravity="start"
+                android:includeFontPadding="false"
+                android:lineSpacingExtra="2dp"
+                android:text="@string/condition20"
+                android:textColor="#343a40"
+                android:textSize="15dp" />
+
+            <TextView
+
+                android:id="@+id/tvcondition21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="10sp"
+                android:gravity="start"
+                android:includeFontPadding="false"
+                android:lineSpacingExtra="2dp"
+                android:text="@string/condition21"
+                android:textColor="#343a40"
+                android:textSize="15dp" />
+
+            <TextView
+
+                android:id="@+id/tvcondition22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="10sp"
+                android:gravity="start"
+                android:includeFontPadding="false"
+                android:lineSpacingExtra="2dp"
+                android:text="@string/condition22"
+                android:textColor="#343a40"
+                android:textSize="15dp" />
+
+            <TextView
+
+                android:id="@+id/tvcondition23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="10sp"
+                android:gravity="start"
+                android:includeFontPadding="false"
+                android:lineSpacingExtra="2dp"
+                android:text="@string/condition23"
+                android:textColor="#343a40"
+                android:textSize="15dp" />
+
+            <TextView
+
+                android:id="@+id/tvcondition24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="10sp"
+                android:gravity="start"
+                android:includeFontPadding="false"
+                android:lineSpacingExtra="2dp"
+                android:text="@string/condition24"
+                android:textColor="#343a40"
+                android:textSize="15dp" />
+
+            <TextView
+
+                android:id="@+id/tvcondition25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="10sp"
+                android:gravity="start"
+                android:includeFontPadding="false"
+                android:lineSpacingExtra="2dp"
+                android:text="@string/condition25"
+                android:textColor="#343a40"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

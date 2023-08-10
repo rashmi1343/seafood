@@ -1,0 +1,969 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scrolldelgate"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/color_page">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/tvdelreg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="10sp"
+            android:text="@string/delegate_reg"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/rllineoneuserprofile"
+            android:layout_width="wrap_content"
+            android:layout_height="1dip"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="5sp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginRight="0dp"
+            android:background="#B3B3B3" />
+
+
+        <RadioGroup
+            android:id="@+id/radioGroupdelegate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp">
+
+            <RadioButton
+                android:id="@+id/radioIndian"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@android:color/holo_blue_light"
+                android:padding="10dp"
+                android:text="Indian"
+                android:textColor="#000" />
+
+            <RadioButton
+                android:id="@+id/radioOverSeas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@android:color/holo_blue_light"
+                android:padding="10dp"
+                android:text="Overseas"
+                android:textColor="#000" />
+
+        </RadioGroup>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cdrvwregistrationcharges"
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginBottom="10sp"
+            android:paddingBottom="20sp"
+            card_view:cardBackgroundColor="#fff">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/llregfee"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvregfee"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10sp"
+                        android:layout_marginTop="10sp"
+                        android:text="@string/reg_fee"
+                        android:textColor="#cacaca"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tvcurrencyregfeeone"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5sp"
+                            android:textColor="#000"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/tvvalregfee"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5sp"
+                            android:layout_marginTop="5sp"
+                            android:text="@string/numregfee"
+                            android:textColor="#000"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/llgstfee"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvgstfee"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20sp"
+                        android:layout_marginTop="10sp"
+                        android:text="@string/strgst"
+                        android:textColor="#cacaca"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tvcurrencyregfee"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5sp"
+                            android:textColor="#000"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/tvvalgstfee"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5sp"
+                            android:layout_marginTop="5sp"
+                            android:text="@string/numgstfee"
+                            android:textColor="#000"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/lltotalfee"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvtotalfee"
+                        android:layout_width="89dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20sp"
+                        android:layout_marginTop="10sp"
+                        android:text="@string/strtotal"
+                        android:textColor="#cacaca"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tvcurrencytotalfee"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5sp"
+                            android:textColor="#000"
+                            android:textSize="14sp" />
+
+
+                        <TextView
+                            android:id="@+id/tvvaltotalfee"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5sp"
+                            android:layout_marginTop="5sp"
+                            android:text="@string/numtotal"
+                            android:textColor="#000"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cddelegatename"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginBottom="10sp"
+            card_view:cardBackgroundColor="#fff"
+
+            >
+
+
+            <EditText
+                android:id="@+id/edtdelgatename"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@android:color/white"
+                android:drawableTint="@android:color/darker_gray"
+                android:hint="@string/strdelgatehint"
+                android:inputType="textEmailAddress"
+                android:padding="2dp"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/black" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cddelegatedesignation"
+            android:layout_width="match_parent"
+            android:layout_height="55sp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginBottom="10sp"
+            android:paddingBottom="20sp"
+            card_view:cardBackgroundColor="#fff">
+
+
+            <EditText
+                android:id="@+id/edtdelgatedesignation"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@android:color/white"
+                android:drawableTint="@android:color/darker_gray"
+                android:hint="@string/strdesignation"
+                android:inputType="textEmailAddress"
+                android:padding="2dp"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/black" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cddelegatecompany"
+            android:layout_width="match_parent"
+            android:layout_height="55sp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginBottom="10sp"
+            android:paddingBottom="20sp"
+            card_view:cardBackgroundColor="#fff">
+
+            <EditText
+                android:id="@+id/edtdelgatecompany"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@android:color/white"
+                android:drawableTint="@android:color/darker_gray"
+                android:hint="@string/strcompanyname"
+                android:inputType="textEmailAddress"
+                android:padding="2dp"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/black" />
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cdaddress"
+            android:layout_width="match_parent"
+            android:layout_height="55sp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginBottom="10sp"
+            android:paddingBottom="20sp"
+            card_view:cardBackgroundColor="#fff">
+
+            <EditText
+                android:id="@+id/edtaddress"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@android:color/white"
+                android:drawableTint="@android:color/darker_gray"
+                android:hint="@string/straddress"
+                android:inputType="textEmailAddress"
+                android:padding="2dp"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/black" />
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cdcity"
+            android:layout_width="match_parent"
+            android:layout_height="55sp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginBottom="10sp"
+            android:paddingBottom="20sp"
+            card_view:cardBackgroundColor="#fff">
+
+            <EditText
+                android:id="@+id/edtcity"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@android:color/white"
+                android:drawableTint="@android:color/darker_gray"
+                android:hint="@string/strcity"
+                android:inputType="textEmailAddress"
+                android:padding="2dp"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/black" />
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cdzippincode"
+            android:layout_width="match_parent"
+            android:layout_height="55sp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginBottom="10sp"
+            android:paddingBottom="20sp"
+            card_view:cardBackgroundColor="#fff">
+
+            <EditText
+                android:id="@+id/edtzippincode"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@android:color/white"
+                android:drawableTint="@android:color/darker_gray"
+                android:hint="@string/strzipcode"
+                android:inputType="number"
+                android:padding="2dp"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/black" />
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cdcountry"
+            android:layout_width="match_parent"
+            android:layout_height="55sp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginBottom="10sp"
+            android:paddingBottom="20sp"
+            card_view:cardBackgroundColor="#fff">
+
+            <AutoCompleteTextView
+                android:id="@+id/country_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#00000000"
+                android:focusableInTouchMode="false"
+                android:hint="@string/strCountry"
+                android:inputType="text"
+                android:padding="2dp"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/black"
+
+                />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="55sp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginBottom="10sp"
+            android:paddingBottom="20sp"
+            card_view:cardBackgroundColor="#fff">
+
+
+            <AutoCompleteTextView
+                android:id="@+id/state_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#00000000"
+                android:focusableInTouchMode="false"
+                android:hint="@string/strstate"
+                android:inputType="text"
+                android:padding="2dp"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/black"
+
+                >
+
+            </AutoCompleteTextView>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="55sp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginBottom="10sp"
+            android:paddingBottom="20sp"
+            card_view:cardBackgroundColor="#fff">
+
+            <EditText
+                android:id="@+id/edttelephone"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@android:color/white"
+                android:drawableTint="@android:color/darker_gray"
+                android:hint="@string/strtelephone"
+                android:inputType="number"
+                android:padding="2dp"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/black" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="55sp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginBottom="10sp"
+            android:paddingBottom="20sp"
+            card_view:cardBackgroundColor="#fff">
+
+            <EditText
+                android:id="@+id/edtfax"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@android:color/white"
+                android:drawableTint="@android:color/darker_gray"
+                android:hint="@string/strfax"
+                android:inputType="number"
+                android:padding="2dp"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/black" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="55sp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginBottom="10sp"
+            android:paddingBottom="20sp"
+            card_view:cardBackgroundColor="#fff">
+
+            <EditText
+                android:id="@+id/edtmobileno"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@android:color/white"
+                android:drawableTint="@android:color/darker_gray"
+                android:hint="@string/strmobile"
+                android:inputType="number"
+                android:maxLength="10"
+                android:padding="2dp"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/black" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="55sp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginBottom="10sp"
+            android:paddingBottom="20sp"
+            card_view:cardBackgroundColor="#fff">
+
+            <EditText
+                android:id="@+id/edtemailid"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@android:color/white"
+                android:drawableTint="@android:color/darker_gray"
+                android:hint="@string/stremailid"
+                android:inputType="textEmailAddress"
+                android:padding="2dp"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/black" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="55sp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginBottom="10sp"
+            android:paddingBottom="20sp"
+            card_view:cardBackgroundColor="#fff">
+
+            <EditText
+                android:id="@+id/edtgstno"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@android:color/white"
+                android:drawableTint="@android:color/darker_gray"
+                android:hint="@string/strgstno"
+                android:inputType="text"
+                android:padding="2dp"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/black" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginBottom="10sp"
+            android:paddingBottom="20sp"
+            card_view:cardBackgroundColor="#fff">
+
+            <Spinner
+                android:id="@+id/spnselectcategory"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="55sp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginBottom="10sp"
+            android:paddingBottom="20sp"
+            card_view:cardBackgroundColor="#fff">
+
+            <EditText
+                android:id="@+id/edtothercategory"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@android:color/white"
+                android:drawableTint="@android:color/darker_gray"
+                android:hint="@string/strotherspecify"
+                android:inputType="textMultiLine"
+                android:padding="2dp"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/black" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+        <TextView
+
+            android:id="@+id/tvdelregdetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="10sp"
+            android:text="@string/strdelregdetail"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <View
+            android:id="@+id/rllineregdetail"
+            android:layout_width="wrap_content"
+            android:layout_height="1dip"
+            android:layout_marginLeft="12sp"
+            android:layout_marginTop="10sp"
+            android:layout_marginRight="12sp"
+            android:background="#B3B3B3"
+
+            />
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cddelegatereg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginBottom="10dp"
+            android:paddingBottom="20sp"
+            android:visibility="gone"
+            card_view:cardBackgroundColor="#fff">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="55sp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginBottom="10sp"
+                    android:paddingBottom="20sp"
+                    card_view:cardBackgroundColor="#fff">
+
+                    <EditText
+                        android:id="@+id/eddelegatename"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@android:color/white"
+                        android:drawableTint="@android:color/darker_gray"
+                        android:hint="@string/strdelgatename"
+                        android:inputType="textEmailAddress"
+                        android:padding="2dp"
+                        android:textColor="@android:color/black"
+                        android:textColorHint="@android:color/black" />
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="55sp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginBottom="10sp"
+                    android:paddingBottom="20sp"
+                    card_view:cardBackgroundColor="#fff">
+
+                    <EditText
+                        android:id="@+id/eddesginationname"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@android:color/white"
+                        android:drawableTint="@android:color/darker_gray"
+                        android:hint="@string/strdesgination"
+                        android:inputType="textEmailAddress"
+                        android:padding="2dp"
+                        android:textColor="@android:color/black"
+                        android:textColorHint="@android:color/black" />
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="55sp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginBottom="10sp"
+                    android:paddingBottom="20sp"
+                    card_view:cardBackgroundColor="#fff">
+
+                    <EditText
+                        android:id="@+id/edtphonemobile"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@android:color/white"
+                        android:drawableTint="@android:color/darker_gray"
+                        android:hint="@string/strPhone"
+                        android:inputType="number"
+                        android:maxLength="10"
+                        android:padding="2dp"
+                        android:textColor="@android:color/black"
+                        android:textColorHint="@android:color/black" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="55sp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginBottom="10sp"
+                    android:paddingBottom="20sp"
+                    card_view:cardBackgroundColor="#fff">
+
+                    <EditText
+                        android:id="@+id/edtdelegateemailaddress"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@android:color/white"
+                        android:drawableTint="@android:color/darker_gray"
+                        android:hint="@string/stremailid"
+                        android:inputType="textEmailAddress"
+                        android:padding="2dp"
+                        android:textColor="@android:color/black"
+                        android:textColorHint="@android:color/black" />
+
+
+                </androidx.cardview.widget.CardView>
+
+
+                <TextView
+                    android:id="@+id/deldelegate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="18dp"
+                    android:text=""
+                    android:textColor="@android:color/holo_red_dark"
+                    android:textSize="18sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/gst_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="5sp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginRight="18sp"
+                    android:textColor="#000"
+                    android:textSize="16dp" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="18dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/tvtotalpaymentamt"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10sp"
+                android:layout_marginRight="25dp"
+                android:text="@string/strtotalpayableamt"
+                android:textColor="#000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/rs_total_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="12sp"
+                android:text="Rs"
+                android:textColor="#000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/output_gst_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="12sp"
+                android:layout_marginRight="18sp"
+                android:text="14,750.00"
+                android:textColor="#000"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/checkbox_Layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/check_box"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="#17a2b8"
+
+                android:clickable="true" />
+
+
+            <TextView
+                android:id="@+id/Terms_and_condition_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="4dp"
+                android:gravity="start"
+
+                android:textColor="#000000"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvplusicon"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="18sp"
+                android:layout_marginTop="30sp"
+                android:text=""
+                android:textColor="@android:color/holo_green_light"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/tvaddnewdelegate"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5sp"
+                android:layout_marginTop="30sp"
+                android:text="Add New Delegate"
+                android:textColor="@android:color/holo_green_light"
+                android:textSize="18sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lldelegate"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+
+        </LinearLayout>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/deletgate_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"></androidx.recyclerview.widget.RecyclerView>
+
+
+        <Button
+            android:id="@+id/payment_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="20sp"
+            android:layout_marginRight="12dp"
+            android:layout_marginBottom="20sp"
+            android:background="@android:color/holo_green_light"
+            android:text="@string/strmakepayment"
+            android:textAllCaps="false"
+            android:textColor="#FFF" />
+
+    </LinearLayout>
+</ScrollView>
+
+
+
+
+

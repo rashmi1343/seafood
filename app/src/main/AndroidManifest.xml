@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.app.seafoodapp">
+
+    <uses-sdk tools:overrideLibrary="       androidx.camera.camera2, androidx.camera.core,       androidx.camera.view, androidx.camera.lifecycle" />
+
+    <uses-feature android:name="android.hardware.camera.any" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/seafood_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".ui.SplashScreen"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.TermsConditionActivity"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".ui.LeadAquistionActivity"
+            android:label="@string/title_activity_lead_aquistion"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ui.LoginActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ui.TrainingQueryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.DashBoardActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".ui.FeedbackActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.TrainingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.Locateusactivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activityorganized"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.ActivityContactus"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.AboutShowActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.StallFormActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.StallActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.SeafoodScannerActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.ProfileActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.UpdateProfileActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.app.seafoodapp.lib.activity.WebViewActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+
+
+        <activity
+            android:name="com.app.seafoodapp.lib.activity.usdPaymentGatewayActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.app.seafoodapp.lib.activity.usdStallPaymentActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.app.seafoodapp.lib.activity.WebViewStallPaymentActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.app.seafoodapp.lib.activity.StatusActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

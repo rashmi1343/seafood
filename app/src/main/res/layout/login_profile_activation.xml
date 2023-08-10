@@ -1,0 +1,124 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.TrainingActivity">
+
+    <RelativeLayout
+        android:id="@+id/training_heading_layout"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@color/color_header">
+
+        <ImageView
+            android:id="@+id/back_training"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@mipmap/left_arrow" />
+
+<!--        <ImageView-->
+<!--            android:layout_width="200dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_centerInParent="true"-->
+<!--            android:layout_marginStart="10dp"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:layout_marginEnd="10dp"-->
+<!--            android:layout_marginBottom="10dp"-->
+<!--            android:src="@drawable/home_logo" />-->
+        <ImageView
+            android:id="@+id/imglogo"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/seafood_home_icon" />
+
+
+        <ImageView
+            android:id="@+id/close_training"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:src="@mipmap/cross_icon" />
+
+    </RelativeLayout>
+
+
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cdprofileactivation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/training_heading_layout"
+        >
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/strProfileactiviation"
+            android:text="Profile Activation"
+            android:paddingLeft="12dp"
+            android:textSize="18dp"
+            />
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+    <View
+        android:id="@+id/last_view"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/cdprofileactivation"
+        android:layout_height="1.1dp"
+        android:background="@color/color_grey"></View>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/last_view"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textColor="#FF0C00"
+        android:layout_centerInParent="true"
+        android:text="@string/stractivatetext"
+        android:id="@+id/tvactivate"
+        ></TextView>
+
+
+    <ImageView
+        android:id="@+id/imgscan"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/tvactivate"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/sca"></ImageView>
+
+
+    <Button
+        android:id="@+id/buttonscandelegatecode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgscan"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="10dp"
+        android:background="#13be31"
+        android:text="Scan Delegate Code"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="17dp" />
+
+</RelativeLayout>

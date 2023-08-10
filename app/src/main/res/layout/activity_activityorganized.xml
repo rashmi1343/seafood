@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activityorganized">
+
+
+    <RelativeLayout
+        android:id="@+id/rlorganized"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+
+        <RelativeLayout
+            android:id="@+id/rlheaderbarshow"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_alignParentTop="true"
+            android:background="@color/color_header">
+
+            <ImageView
+                android:id="@+id/backicon"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:src="@mipmap/left_arrow" />
+
+            <ImageView
+                android:id="@+id/main_logo"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/seafood_home_icon"/>
+
+
+            <ImageView
+                android:id="@+id/closeicon"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:src="@mipmap/cross_icon" />
+
+        </RelativeLayout>
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/tvjointlyorganised"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/rlheaderbarshow"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="40sp"
+                    android:text="@string/jointlyorganized"
+                    android:textAllCaps="true"
+                    android:textColor="@color/black"
+                    android:textSize="22sp" />
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:elevation="4dp"
+                    app:cardCornerRadius="2dp">
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:layout_gravity="center_horizontal"
+                            app:cardBackgroundColor="@android:color/transparent"
+                            app:cardElevation="@dimen/cardview_default_elevation">
+
+                            <ImageView
+                                android:id="@+id/imgmpeda"
+                                android:layout_width="match_parent"
+
+
+                                android:layout_height="80dp"
+                                android:layout_below="@+id/tvjointlyorganised"
+
+                                android:background="@drawable/mpeda_logo" />
+
+                        </androidx.cardview.widget.CardView>
+
+
+                        <TextView
+                            android:id="@+id/tvmpeda"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/tvjointlyorganised"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="16sp"
+                            android:layout_toRightOf="@+id/imgmpeda"
+                            android:text="MPEDA"
+                            android:textColor="@android:color/black"
+                            android:textSize="20dp" />
+
+                        <TextView
+                            android:id="@+id/tvabtimpedia"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/tvmpeda"
+                            android:layout_marginLeft="20dp"
+                            android:lineSpacingExtra="2dp"
+                            android:layout_marginTop="20sp"
+                            android:textColor="#575758"
+                            android:text="@string/abtimpedia" />
+
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:elevation="4dp"
+                    app:cardCornerRadius="2dp">
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:layout_gravity="center_horizontal"
+                            app:cardBackgroundColor="@android:color/transparent"
+                            app:cardElevation="@dimen/cardview_default_elevation">
+
+                            <ImageView
+                                android:id="@+id/imgseafod"
+                                android:layout_width="match_parent"
+                                android:layout_height="80dp"
+                                android:layout_below="@+id/tvabtimpedia"
+
+                                android:background="@drawable/seafood_logo" />
+
+                        </androidx.cardview.widget.CardView>
+
+
+                        <TextView
+                            android:id="@+id/tvseafood"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/tvabtimpedia"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="20sp"
+                            android:layout_toRightOf="@+id/imgseafod"
+                            android:text="SEAFOOD EXPORTERS ASSOCIATION OF INDIA"
+                            android:textColor="@android:color/black"
+                            android:textSize="20dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/tvseafood"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="20sp"
+                            android:lineSpacingExtra="2dp"
+                            android:text="@string/seafoodexporters"
+                            android:textColor="#575758"
+                            />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

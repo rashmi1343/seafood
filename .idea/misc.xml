@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/rashmi.g/Seafood_App_10-09-2022/Seafood App 09-09-2022/SeafoodApp/app/src/main/res/layout/activity_stall_form.xml" value="0.32314814814814813" />
+        <entry key="..\:/Users/rashmi.g/Seafood_App_10-09-2022/Seafood App 09-09-2022/SeafoodApp/app/src/main/res/layout/stall_detail_items.xml" value="0.32314814814814813" />
+        <entry key="..\:/Users/rashmi.g/Seafood_App_10-09-2022/Seafood App 09-09-2022/SeafoodApp/app/src/main/res/layout/stall_recycler_item.xml" value="0.32314814814814813" />
+        <entry key="..\:/Users/rashmi.g/Seafood_App_10-09-2022/Seafood App 09-09-2022/SeafoodApp/app/src/main/res/layout/state_list_item.xml" value="0.32314814814814813" />
+        <entry key="..\:/Users/rashmi.g/StudioProjects/SeafoodApp/app/src/main/res/drawable-v21/ic_menu_camera.xml" value="0.229" />
+        <entry key="..\:/Users/rashmi.g/StudioProjects/SeafoodApp/app/src/main/res/drawable-v21/ic_menu_gallery.xml" value="0.229" />
+        <entry key="..\:/Users/rashmi.g/StudioProjects/SeafoodApp/app/src/main/res/drawable-v21/ic_menu_manage.xml" value="0.229" />
+        <entry key="..\:/Users/rashmi.g/StudioProjects/SeafoodApp/app/src/main/res/drawable-v21/ic_menu_send.xml" value="0.295" />
+        <entry key="..\:/Users/rashmi.g/StudioProjects/SeafoodApp/app/src/main/res/drawable/background_border.xml" value="0.295" />
+        <entry key="..\:/Users/rashmi.g/StudioProjects/SeafoodApp/app/src/main/res/drawable/background_rect.xml" value="0.329" />
+        <entry key="..\:/Users/rashmi.g/StudioProjects/SeafoodApp/app/src/main/res/drawable/black_background_rect.xml" value="0.229" />
+        <entry key="..\:/Users/rashmi.g/StudioProjects/SeafoodApp/app/src/main/res/drawable/delegate_drawable.xml" value="0.295" />
+        <entry key="..\:/Users/rashmi.g/StudioProjects/SeafoodApp/app/src/main/res/drawable/edit_text_drawable.xml" value="0.229" />
+        <entry key="..\:/Users/rashmi.g/StudioProjects/SeafoodApp/app/src/main/res/drawable/ic_baseline_content_copy_24.xml" value="0.1635" />
+        <entry key="..\:/Users/rashmi.g/StudioProjects/SeafoodApp/app/src/main/res/drawable/organise_drawable.xml" value="0.295" />
+        <entry key="..\:/Users/rashmi.g/StudioProjects/SeafoodApp/app/src/main/res/drawable/stall_drawable.xml" value="0.295" />
+        <entry key="..\:/Users/rashmi.g/StudioProjects/SeafoodApp/app/src/main/res/layout/activity_activityorganized.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/rashmi.g/StudioProjects/SeafoodApp/app/src/main/res/layout/activity_card_view.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/rashmi.g/StudioProjects/SeafoodApp/app/src/main/res/layout/activity_contactus.xml" value="0.13076199435559738" />
+        <entry key="..\:/Users/rashmi.g/StudioProjects/SeafoodApp/app/src/main/res/layout/activity_dash_board.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/rashmi.g/StudioProjects/SeafoodApp/app/src/main/res/layout/activity_feedback.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/rashmi.g/StudioProjects/SeafoodApp/app/src/main/res/layout/activity_initial_screen.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/rashmi.g/StudioProjects/SeafoodApp/app/src/main/res/layout/activity_lead_aquistion.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/rashmi.g/StudioProjects/SeafoodApp/app/src/main/res/layout/activity_locateusactivity.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/rashmi.g/StudioProjects/SeafoodApp/app/src/main/res/layout/activity_login.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/rashmi.g/StudioProjects/SeafoodApp/app/src/main/res/layout/activity_main.xml" value="0.25226449275362317" />
+        <entry key="..\:/Users/rashmi.g/StudioProjects/SeafoodApp/app/src/main/res/layout/activity_my_nav.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/rashmi.g/StudioProjects/SeafoodApp/app/src/main/res/layout/activity_on_boarding.xml" value="0.32314814814814813" />
+        <entry key="..\:/Users/rashmi.g/StudioProjects/SeafoodApp/app/src/main/res/layout/activity_profile.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/rashmi.g/StudioProjects/SeafoodApp/app/src/main/res/layout/activity_splash_screen.xml" value="0.32314814814814813" />
+        <entry key="..\:/Users/rashmi.g/StudioProjects/SeafoodApp/app/src/main/res/layout/activity_stall.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/rashmi.g/StudioProjects/SeafoodApp/app/src/main/res/layout/activity_stall_form.xml" value="0.25" />
+        <entry key="..\:/Users/rashmi.g/StudioProjects/SeafoodApp/app/src/main/res/layout/activity_status.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/rashmi.g/StudioProjects/SeafoodApp/app/src/main/res/layout/activity_terms_condition.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/rashmi.g/StudioProjects/SeafoodApp/app/src/main/res/layout/activity_training.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/rashmi.g/StudioProjects/SeafoodApp/app/src/main/res/layout/activity_training_query.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/rashmi.g/StudioProjects/SeafoodApp/app/src/main/res/layout/activity_update_profile.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/rashmi.g/StudioProjects/SeafoodApp/app/src/main/res/layout/activity_webview.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/rashmi.g/StudioProjects/SeafoodApp/app/src/main/res/layout/activityaboutshow.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/rashmi.g/StudioProjects/SeafoodApp/app/src/main/res/layout/add_note_lead.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/rashmi.g/StudioProjects/SeafoodApp/app/src/main/res/layout/app_bar_my_nav.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/rashmi.g/StudioProjects/SeafoodApp/app/src/main/res/layout/bottom_sheet_barcode_data.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/rashmi.g/StudioProjects/SeafoodApp/app/src/main/res/layout/card_view_row.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/rashmi.g/StudioProjects/SeafoodApp/app/src/main/res/layout/content_lead_aquistion.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/rashmi.g/StudioProjects/SeafoodApp/app/src/main/res/layout/content_main.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/rashmi.g/StudioProjects/SeafoodApp/app/src/main/res/layout/content_my_nav.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/rashmi.g/StudioProjects/SeafoodApp/app/src/main/res/layout/country_recycler_item.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/rashmi.g/StudioProjects/SeafoodApp/app/src/main/res/layout/custom_dialog.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/rashmi.g/StudioProjects/SeafoodApp/app/src/main/res/layout/custom_state_dialog.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/rashmi.g/StudioProjects/SeafoodApp/app/src/main/res/layout/fragment_gallery.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/rashmi.g/StudioProjects/SeafoodApp/app/src/main/res/layout/fragment_home.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/rashmi.g/StudioProjects/SeafoodApp/app/src/main/res/layout/fragment_scan_barcode.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/rashmi.g/StudioProjects/SeafoodApp/app/src/main/res/layout/fragment_send.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/rashmi.g/StudioProjects/SeafoodApp/app/src/main/res/layout/fragment_share.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/rashmi.g/StudioProjects/SeafoodApp/app/src/main/res/layout/fragment_slideshow.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/rashmi.g/StudioProjects/SeafoodApp/app/src/main/res/layout/fragment_success.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/rashmi.g/StudioProjects/SeafoodApp/app/src/main/res/layout/fragment_tools.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/rashmi.g/StudioProjects/SeafoodApp/app/src/main/res/layout/img_show_layout.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/rashmi.g/StudioProjects/SeafoodApp/app/src/main/res/layout/list_item_seminar_child.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/rashmi.g/StudioProjects/SeafoodApp/app/src/main/res/layout/list_item_seminar_parent.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/rashmi.g/StudioProjects/SeafoodApp/app/src/main/res/layout/login_profile_activation.xml" value="0.26481481481481484" />
+        <entry key="..\:/Users/rashmi.g/StudioProjects/SeafoodApp/app/src/main/res/layout/nav_header_my_nav.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/rashmi.g/StudioProjects/SeafoodApp/app/src/main/res/layout/nav_header_my_new.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/rashmi.g/StudioProjects/SeafoodApp/app/src/main/res/layout/new_block_spinner_item.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/rashmi.g/StudioProjects/SeafoodApp/app/src/main/res/layout/qrcode_screen.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/rashmi.g/StudioProjects/SeafoodApp/app/src/main/res/layout/row_add_delegate.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/rashmi.g/StudioProjects/SeafoodApp/app/src/main/res/layout/seafood_scanner_activity.xml" value="0.33" />
+        <entry key="..\:/Users/rashmi.g/StudioProjects/SeafoodApp/app/src/main/res/layout/simple_spinner_dropdown_item.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/rashmi.g/StudioProjects/SeafoodApp/app/src/main/res/layout/spinner_item.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/rashmi.g/StudioProjects/SeafoodApp/app/src/main/res/layout/stall_detail_items.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/rashmi.g/StudioProjects/SeafoodApp/app/src/main/res/layout/stall_recycler_item.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/rashmi.g/StudioProjects/SeafoodApp/app/src/main/res/layout/state_list_item.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/rashmi.g/StudioProjects/SeafoodApp/app/src/main/res/layout/terms_condition_dialog.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/rashmi.g/StudioProjects/SeafoodApp/app/src/main/res/layout/training_list_item.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/rashmi.g/StudioProjects/SeafoodApp/app/src/main/res/layout/training_session_layout.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/rashmi.g/StudioProjects/SeafoodApp/app/src/main/res/menu/my_nav.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/rashmi.g/StudioProjects/SeafoodApp/app/src/main/res/mipmap-anydpi-v26/seafood_icon.xml" value="0.229" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

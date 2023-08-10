@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.TrainingQueryActivity">
+
+    <RelativeLayout
+        android:id="@+id/rlheaderbarshow"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@color/color_header">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@mipmap/left_arrow"
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true"
+            android:id="@+id/backicon"
+            />
+
+<!--        <ImageView-->
+<!--            android:layout_width="200dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_centerInParent="true"-->
+<!--            android:layout_marginStart="10dp"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:layout_marginEnd="10dp"-->
+<!--            android:layout_marginBottom="10dp"-->
+<!--            android:src="@drawable/home_logo" />-->
+
+        <ImageView
+            android:id="@+id/imglogo"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/seafood_home_icon" />
+
+
+
+        <ImageView
+            android:id="@+id/closeicon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:src="@mipmap/cross_icon" />
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TECHNICAL SESSIONS QUERY"
+        android:layout_below="@+id/rlheaderbarshow"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:id="@+id/tvtechnicalsession"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:orientation="vertical">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/query_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:text="Seminar Name"
+                android:textColor="@android:color/black"></TextView>
+
+            <TextView
+                android:id="@+id/query_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:text=""
+                android:textColor="@android:color/black"></TextView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/query_ownertxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="Seminar Owner :"
+                android:textColor="@android:color/black"></TextView>
+
+            <TextView
+                android:id="@+id/query_owner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@android:color/black"></TextView>
+
+        </LinearLayout>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Query Title *"
+            android:paddingLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:gravity="top|left"
+            android:id="@+id/edttitle"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black" />
+
+
+        <EditText
+            android:id="@+id/edtquery"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/background_border"
+            android:layout_marginTop="10dp"
+            android:hint="Query *"
+            android:paddingLeft="15dp"
+            android:gravity="top|left"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/query_button"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20sp"
+            android:layout_height="wrap_content"
+            android:text="@string/submit_text"
+            android:textAllCaps="false"
+            android:textColor="#FFF"
+            android:background="@android:color/holo_green_light"
+            />
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

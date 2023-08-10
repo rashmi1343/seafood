@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    tools:context=".ui.activityorganized">
+
+
+            <RelativeLayout
+                android:id="@+id/rlheaderbarstatus"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:background="@color/color_header">
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@mipmap/left_arrow"
+                    android:layout_marginLeft="10dp"
+                    android:layout_centerVertical="true"
+                    android:id="@+id/backicon"
+                    />
+
+<!--                <ImageView-->
+<!--                    android:layout_width="200dp"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_centerInParent="true"-->
+<!--                    android:layout_marginStart="10dp"-->
+<!--                    android:layout_marginTop="10dp"-->
+<!--                    android:layout_marginEnd="10dp"-->
+<!--                    android:layout_marginBottom="10dp"-->
+<!--                    android:src="@drawable/home_logo" />-->
+                <ImageView
+                    android:id="@+id/imglogo"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/seafood_home_icon"/>
+
+                <ImageView
+                    android:id="@+id/closeicon"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    android:src="@mipmap/cross_icon" />
+            </RelativeLayout>
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rlheaderbarstatus"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+
+        <RelativeLayout
+                android:id="@+id/rlheaderone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/tvtransstatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/rlheaderbarshow"
+                    android:layout_marginTop="60sp"
+                    android:textAllCaps="true"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="20sp" />
+                <!--<TextView
+                    android:id="@+id/tvresponse"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvtransstatus"
+                    android:layout_marginTop="5dp"
+                    android:text="sdgsdglkjgd"
+                    android:textAllCaps="false"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="18sp" />-->
+
+                <WebView
+                    android:id="@+id/tvresponse"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvtransstatus"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@android:color/black"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvresponse"
+                    android:text="Return to Dashboard"
+                    android:background="@android:color/holo_green_dark"
+                    android:layout_margin="20sp"
+                    android:id="@+id/btnreturntodashboard"
+                    />
+            </RelativeLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</RelativeLayout>

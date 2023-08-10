@@ -1,0 +1,513 @@
+<resources>
+    <string name="app_name">Seafood App</string>
+    <string name="action_settings">Settings</string>
+    <string name="delegate_reg">Delegate Registration</string>
+    <string name="prompt_email">Username</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Login</string>
+    <string name="action_sign_inqrcode">Scan Delegate Code</string>
+    <string name="stall_reg">Stall Registration</string>
+    <string name="reg_fee">Registration Fee</string>
+    <string name="numregfee">12,500.00</string>
+    <string name="strgst">GST@18%</string>
+    <string name="numgstfee">2,250.00</string>
+    <string name="strtotal">Total</string>
+    <string name="numtotal">14,750.00</string>
+    <string name="strdelgatehint">Name of Delegate<font color='#FF0000'>*</font></string>
+    <string name="strdesignation">Designation <font color='#FF0000'>*</font></string>
+    <string name="strcompanyname">Name of Company <font color='#FF0000'>*</font></string>
+    <string name="Strcompanynamenew">Company</string>
+    <string name="Stremailnew">Email</string>
+    <string name="straddress">Address <font color='#FF0000'>*</font></string>
+    <string name="strcity">City <font color='#FF0000'>*</font></string>
+    <string name="strzipcode">Zip/Pin Code <font color='#FF0000'>*</font></string>
+    <string name="strCountry">Country <font color='#FF0000'>*</font></string>
+    <string name="strstate">State <font color='#FF0000'>*</font></string>
+    <string name="strtelephone">Telephone</string>
+    <string name="strfax">Fax</string>
+    <string name="strmobile">Mobile <font color='#FF0000'>*</font></string>
+    <string name="stremailid">Email ID<font color='#FF0000'>*</font></string>
+    <string name="strgstno">GST NO <font color='#FF0000'>*</font></string>
+    <string name="strproduct">Products and Services</string>
+    <string name="strrawspace">Raw Space</string>
+    <string name="strselectcat">Select Category <font color='#FF0000'>*</font></string>
+    <string name="strotherspecify">If Other, Specify</string>
+    <string name="strdelregdetail">Delegate Details</string>
+    <string name="strdelgatename">Name of Delegate <font color='#FF0000'>*</font></string>
+    <string name="strdesgination">Designation <font color='#FF0000'>*</font></string>
+    <string name="strdesnew">Designation</string>
+    <string name="strPhone">Phone/Mobile <font color='#FF0000'>*</font></string>
+    <string name="Strphonenew">Phone</string>
+    <string name="strfeegst">Fee and GST\t\t\tRs 14,750.0</string>
+    <string name="strtotalpayableamt">Total Payable Amount</string>
+    <string name="strnewdelegate">Add New Delegate</string>
+    <string name="strmakepayment">Make Payment</string>
+    <string name="showvenue">Venue</string>
+    <string name="access_code">Access Code</string>
+    <string name="pay_button">Pay</string>
+    <string name="merchant_id">Merchant Id</string>
+    <string name="currency">Currency</string>
+    <string name="amount">Amount</string>
+    <string name="redirect_url">Redirect Url</string>
+    <string name="cancel_url">Cancel Url</string>
+    <string name="strshellscheme">Shell Scheme</string>
+    <string name="strregmemeber">MPEDA/SEAI Registered Member</string>
+    <string name="strentermpeda">Please enter your MPEDA/SEAI number validity</string>
+    <string name="strregmemmpeda">Registered Member of MPEDA.\n
+        Give MPEDA Registration Number and Validity <font color='#FF0000'>*</font></string>
+    <string name="strregseai">Registered Member of SEAI.\n
+        Give SEAI Registration Number and Validity <font color='#FF0000'>*</font></string>
+    <string name="otherreqspecify">Other Specify</string>
+    <string name="strmpedaregnumber">MPEDA Registration Number</string>
+    <string name="strseairegnumber">SEAI Registration Number</string>
+    <string name="strdateformat">YYYY-MM-DD</string>
+    <string name="chknovalidity">Check Number and Validitiy</string>
+    <string name="strmpeda">MPEDA</string>
+    <string name="strseai">SEAI</string>
+    <string name="rsa_url">RSA Key Url</string>
+    <string name="strbookmeeting">Book a meeting Room</string>
+    <string name="str_training">Technical\nSession</string>
+    <string name="str_feedback">Feedback</string>
+    <string name="abtiss2023">About IISS 2023</string>
+    <string name="abtiss">The 23rd Edition being held from 15th – 17th February, 2023 at Biswa Bangla Mela Prangan, Kolkata, West Bengal, India –promises to be even bigger and better in terms of size and participation. IISS 2023 will showcase Domestic and Overseas Participants, in terms of Stalls, Delegates and Trade Visitors in a scenic and natural ambience.\n
+
+
+        The Show will highlight India’s commitment towards safe and sustainable seafood production for export.\n
+
+Meet face to face with seafood buyers across the world, discover new business relationships, and increase your sales/exports at one of Asia’s largest Seafood Exposition. Participate and Meet with top Seafood Buyers from Retail and Food Service Industries, Network with Wholesalers, Distributors, Importers and Exporters making business in India, a truly global experience.</string>
+
+    <string name="jointlyorganized">Jointly Organized By</string>
+    <string name="abtimpedia">THE MARINE PRODUCTS EXPORT\nDEVELOPMENT AUTHORITY\n(Ministry of Commerce and Industry, Government of India)\nMPEDA House, Panampilly Nagar\nP.B, 4272, Kochi – 682036, Kerala, India\nTel : +91 484 2321722
+\nFax : +91 484 2312812
+\nE-mail : iiss@mpeda.gov.in
+\nWebsite : www.mpeda.gov.in </string>
+
+    <string name="seafoodexporters">THE SEAFOOD EXPORTERS\nASSOCIATION OF INDIA\nSeafood House,\nWillingdon Island\nKochi – 682 003, Kerala, India\nTel : +91 484 2666572\nFax : +91 484 2312812\nE-mail : seaihq@gmail.com\nWebsite : www.seai.in\n</string>
+
+    <string name="strdisplay">See Layout</string>
+    <string name="add_stall">Add Stall</string>
+    <string name="submit_text">Submit</string>
+    <string name="stalldetail">Stall Delegate Details</string>
+    <string name="strEmail">Email <font color='#FF0000'>*</font></string>
+    <string name="barcode_value">Barcode Value: %1$s</string>
+
+    <string name="contactofficeone">HEAD OFFICE</string>
+    <string name="contactone"><b>The Marine Products Export Development Authority,</b>\n
+MPEDA House,\n
+P.B.No.4272,\n
+Panampilly Avenue,\n
+Panampilly Nagar P.O,\n
+Kochi – 682 036,\n
+KERALA.\n
+<b>E-mail:</b> ho@mpeda.gov.in\n
+<b>Website:</b> www.mpeda.gov.in\n
+<b>Phone:</b> 91 484 2311901,91 484 2311854,91 484 2311803,91 484 2313415,\n
+
+<b>Fax:</b> 91 484 2313361</string>
+
+    <string name="contactofficetwo">REGIONAL DIVISIONS</string>
+    <string name="contacttwo"><b>RD KOCHI</b>\n
+The Marine Products Export Development Authority\n
+Regional Division\n
+MPEDA House, 4th Floor, Panampilly Avenue,\n
+Panampilly Nagar P.O, Kochi – 682 036,\n
+KERALA.\n
+E-mail: ro.koc@mpeda.gov.in\n
+Tel: + 91 484 2323245\n
++ 91 484 2321725\n
+E-mail: rc.koc@mpeda.gov.in\n
+Mr. Johnson D’cruz – Deputy Director\n
+Mob: +91 94004 50074</string>
+
+    <string name="regional_three"><b>RD CHENNAI</b>\n
+The Marine Products Export Development Authority\n
+Regional Division\n
+No.167, First Floor, Interpretation Building TNFDC, ECOPARK\n
+Poonamallee High Road, Chetpet, Kilpauk\n
+Chennai – 600 010\n
+TAMIL NADU\n
+Tel: 044 28365152\n
+Fax: +91 44 26265152\n
+E-mail: ro.che@mpeda.gov.in\n
+DR. Ansar Ali – Deputy Director\n
+Mob: +91 95970 30878</string>
+
+    <string name="regional_four"><b>RD KOLKATA</b>\n
+The Marine Products Export Development Authority\n
+Regional Division\n
+5th Floor , Tea Board Building, 14,\n
+BTM Sarani, (Brabourne Road)\n
+Kolkata – 700001, West Bengal\n
+Tel: 91 33 22345908\n
+Fax: 91 33 22341181\n
+E-mail: ro.kol@mpeda.gov.in\n
+Mr. Archiman Lahiri – Deputy Director\n
+Mob: +91 95423 55500</string>
+
+    <string name="regional_five"><b>RD MUMBAI</b>\n
+The Marine Products Export Development Authority,\n
+Regional Division,\n
+41, Trifed Tower, 4th Floor, Plot No.3, Sector 17, Cidco Area,\n
+Mumbai – Pune Highway, New Panvel (W)\n
+Navi Mumbai – 410 206, Maharashtra.\n
+Tel: +91 22 27481481\n
+Fax: +91 22 27481482\n
+Email:rc.pan@mpeda.gov.in;\n
+ro.mum@mpeda.gov.in\n
+DR. TAMBADA N VISHNU – Deputy Director\n
+Mob: +91 8104631703, 7894735652</string>
+
+    <string name="regional_six"><b>RD VIJAYAWADA</b>\n
+The Marine Products Export Development Authority.\n
+Regional Division\n
+2nd Floor, 33-25-35, Bellapu Sobhanadri Street,\n
+Surya Rao Pet,\n
+Vijayawada – 520 002, Andhra Pradesh\n
+Tel: 91 866 2433050\n
+E-mail: rc.vij@mpeda.gov.in\n
+Mr. Jeyabal A – Joint Director\n
+Mob: +91 95004 49179</string>
+
+    <string name="regional_seven"><b>RD VERAVAL</b>\n
+The Marine Products Export Development Authority,\n
+Regional Division\n
+Kaveri Building, 3rd Floor, Above SBI\n
+80 Feet Road, Veraval – 362 266, Gujarat.\n
+Tel: 91 2876 241429\n
+Fax: 91 2876 244121\n
+E-mail: ro.ver@mpeda.gov.in\n
+Mr. Shirmali Vinod – Deputy Director\n
+Mob: +91 88660 60220</string>
+
+    <string name="regional_eight"><b>RD BHUBANESWAR</b>\n
+The Marine Products Export Development Authority,\n
+Regional Division\n
+2nd Floor\n
+Raptani Bhavan,IRC Village\n
+Nayappalli,\n
+Bhubaneswar – 751 015, Orissa.\n
+Tele: 91 674 2362360, 2362161\n
+E-mail: rc.bhu@mpeda.gov.in\n
+Mr. Rajakumar Naik – Deputy Director\n
+Mob: +91 82912 54720</string>
+
+    <string name="regional_nine"><b>RD MANGALORE</b>\n
+The Marine Products Export Development Authority,\n
+Regional Division,\n
+1st Floor, Sri Vinayak Krupa Building,\n
+Anand Shetty Circle, Attavar Katte,\n
+Mangalore – 575 001,\n
+Karnataka.\n
+Tel: +91 824 2985988\n
+Email:sro.man@mpeda.gov.in\n
+Mr. K V Premdev – Deputy Director\n
+Mob: +91 94474 50824</string>
+
+
+    <string name="contactofficethree">SUB-REGIONAL DIVISIONS</string>
+
+    <string name="contactthree"><b>SRD NAGAPATTINAM</b>\n
+The Marine Products Export Development Authority,\n
+Sub Regional Division,\n
+No.1, Cooks Road,\n
+Nagappattinam – 611 001,\n
+Tamil Nadu.\n
+Tel: +91 4365 243115\n
+Email:rc.nag@mpeda.gov.in\n
+Mr. JAYAGOPAL P – Deputy Director\n
+Mob: +91 8136950580</string>
+
+
+    <string name="sub_regional_three"><b>SRD VALSAD</b>\n
+The Marine Products Export Development Authority,\n
+Sub Regional Division,\n
+Ekta Building No.1, 3rd Floor,\n
+Above HDFC Bank, Tithal Road,\n
+Valsad – 396 001, Gujarat.\n
+Tel: +91 2632 253740/ +91 2632 242642\n
+E-mail: rc.val@mpeda.gov.in\n
+Mr. Maruti Yaligar – Deputy Director\n
+Mob: +91 94956 25669</string>
+
+    <string name="sub_regional_four"><b>SRD VISAKHAPATNAM</b>\n
+The Marine Products Export Development Authority,\n
+Sub Regional Division,\n
+Door No.9-24-3, Flat No.101 and 104, CBM Compound\n
+Opp. Timpany School Main Gate\n
+Rama Talkies Road, Visakhapatnam – 530 003,\n
+Andhra Pradesh.\n
+Tel: +91 891 2701134/ +91 891 2552077\n
+E-mail: ro.viz@mpeda.gov.in\n
+Mr. Prasad Nayak – Assistant Director\n
+Mob: +91 89211 70059</string>
+
+    <string name="sub_regional_five"><b>HE MARINE PRODUCTS EXPORT DEVELOPMENT AUTHORITY,</b>\n
+SUB REGIONAL DIVISION\n
+No.82, NEW COLONY, TUTICORIN,\n
+TAMIL NADU- 628 003.\n
+Phone: 0461-2310602\n
+E-mail: sro.tut@mpeda.gov.in\n
+Mr.S. Asok Kumar, Deputy Director\n
+Mob: +91 7276009600</string>
+
+    <string name="sub_regional_six"><b>SRD GUWAHATI</b>\n
+The Marine Products Export Development Authority,\n
+Sub Regional Division,\n
+Door No., 1, Ground Floor,\n
+Nabagraha Road,Silpukhuri,\n
+Guwahati – 781 003,\n
+Assam.\n
+Tel: +91 361 2663083\n
+E-mail: sro.guw@mpeda.gov.in\n
+Mr. Archiman Lahiri – Deputy Director\n
+Mob: +91 95423 55500</string>
+
+    <string name="sub_regional_seven"><b>SRD PORBANDAR</b>\n
+The Marine Products Export Development Authority,\n
+Sub Regional Division,\n
+1st Floor, SHANTI Complex\n
+3, Wadi Plot, Opp: TACON Complex\n
+Porbandar – 360 575,\n
+Gujarat.\n
+Tel: +91 2862 210074\n
+E-mail: sro.por@mpeda.gov.in\n
+Mr. Vaniya Kishore Kumar – Assistant Director\n
+Mob: +91 99139 41100</string>
+
+    <string name="sub_regional_eight"><b>SRD BHIMAVARAM</b>\n
+The Marine Products Export Development Authority,\n
+Sub Regional Division,\n
+02-01-05, 2nd Floor, GRK Complex\n
+Opposite to BPCL Bunk, J.P.Road,\n
+Bhimavaram – 534 202\n
+Andhra Pradesh\n
+Phone : +91 8816 297219/ +91 8816 227395\n
+E-mail: sro.bhi@mpeda.gov.in\n
+Mr. Hakkim V I – Deputy Director\n
+Mob: +91 94467 43747</string>
+
+    <string name="sub_regional_nine"><b>SRD KAVARATTI</b>\n
+The Marine Product Export Development Authority\n
+Sub Regional Division\n
+Directorate of Fisheries,\n
+Kavaratti, UT of Lakshadweep.\n
+PIN: 682555.\n
+Phone: 04896 262766\n
+E mail: admpedakavaratti@gmail.com\n
+E mail: admpedakavaratti@gmail.com\n
+DR. P. Jayagopal – AssistantDirector\n
+Mob: +91 94455 87666</string>
+    <string name="sub_regional_ten"><b>SRD HYDERABAD</b>\n
+The Marine Products Export Development Authority,\n
+Sub Regional Division,\n
+Office of Directorate of Veterinary and Animal Husbandry,\n
+Second Floor, Pashu Sankshema Bhawan,\n
+Shanti Nagar, Masab Tank, Hyderabad , – 500028 Telangana.\n
+E-mail: srd.hyd@mpeda.gov.in\n
+Mr. Ram Adhar Gupta – Deputy Director\n
+Mob: +91 94835 35805</string>
+    <string name="sub_regional_eleven"><b>SRD PORT BLAIR</b>\n
+The Marine Products Export Development Authority,\n
+MPEDA Desk Office\n
+Administrative Building,\n
+Fish Landing Centre,\n
+Juglighat, Port Blair,\n
+Andaman and Nicobar Island.\n
+Cell No.+91 95318 70017/ +91 96795 21641\n
+Mail: kumar.ujjwal58@gmail.com</string>
+
+
+    <string name="contactofficefour"><b>QUALITY CONTROL LABORATORIES</b></string>
+
+    <string name="controllabone"><b>QC LAB NELLORE</b>\n
+The Marine products Export Development Authority,\n
+Quality Control Laboratory,\n
+Door No.26-I-1766/A1,\n
+Mini Bye Pass Road,\n
+Srinagar Colony, Nellore – 524 003,\n
+Andhra Pradesh.\n
+Tel: +91 861 2319144\n
+E-mail: lab.nel@mpeda.gov.in</string>
+
+
+    <string name="controllabtwo"><b>QC LAB BHIMAVARAM</b>\n
+The Marine Products Export Development Authority,\n
+Quality Control Laboratory,\n
+Trinethra Complex, Pattabhi Plaza,\n
+JP Road,West Godavari Dist,\n
+Bhimavaram- 534 202,Andhra Pradesh.\n
+Tel: +91 8816 226410\n
++91 8816 297410\n
+E-mail: lab.bhi@mpeda.gov.in</string>
+
+    <string name="controllabthree"><b>QC LAB BHUBANESWAR</b>\n
+The Marine Products Export Development Authority,\n
+Quality Control Laboratory,\n
+2nd Floor Raptani Bhavan, Near ID Market, IRC Village, Nayapalli,\n
+Bhubaneswar – 751 015,Odisha.\n
+Tel: +91 674 2362365\n
+E-mail: lab.bhu@mpeda.gov.in</string>
+
+    <string name="controllabfour"><b>QC LAB KOCHI</b>\n
+The Marine Products Export Development Authority,\n
+Quality Control Laboratory,\n
+MPEDA House, P.B.No.4272, Panampilly Avenue,\n
+Panampilly Nagar P.O, Kochi – 682 036,KERALA.\n
+Phone. +91 484 2311901\n
+E-mail: lab.koc@mpeda.gov.in</string>
+
+    <string name="controllabfive"><b>QC LAB PORBANDAR</b>\n
+The Marine Products Export Development Authority,\n
+Quality Control Laboratory,\n
+2nd Floor, SHANTI Complex,\n
+3, Wadi Plot, Opp: TACON Complex,\n
+Porbandar – 360 575,Gujarat.\n
+Tel. No. +91 286 2210074\n
+E-mail: lab.por@mpeda.gov.in</string>
+
+
+    <string name="contactofficefive"><b>TRADE PROMOTION OFFICES</b></string>
+
+    <string name="tradeofficeone"><b>TPO NEW YORK</b>\n
+The Marine Products Export Development Authority,\n
+Trade Promotion Office\n
+17, Battery Place, Room 227, 2nd Floor\n
+New York,\n
+NY 10004, USA.\n
+Tel: 001 212 425 9437, 425 9499\n
+Fax: 001 212 363 3456\n
+E-mail: tpo.ny@mpeda.gov.in</string>
+
+
+    <string name="tradeofficetwo"><b>TPO TOKYO</b>\n
+The Marine Products Export Development Authority,\n
+Trade Promotion Office\n
+7th Floor, WAVE Ginza Building\n
+Ginza, 8-15 – 2, – Chuo-Ku,\n
+Tokyo – 104-0061, Japan.\n
+Tel: + 81 03 3545 3247 / 3545 3774\n
+Fax: + 81 03 3541 8616\n
+E-mail: tpo.jp@mpeda.gov.in</string>
+
+    <string name="tradeofficethree"><b>TPO NEW DELHI</b>\n
+The Marine Products Export Development Authority,\n
+Trade Promotion Office\n
+8/11, (1st Floor, ), Subhash Nagar,\n
+New Delhi – 110 027\n
+Tel:011 41400527\n
+E-mail: tpo.nd@mpeda.gov.in\n
+RAKESH THOMAS KURIAN – Deputy Director\n
+Mob: +91 9447910235</string>
+
+    <string name="contactofficeSix"><b>MPEDA SOCIETIES</b></string>
+
+    <string name="socitiesone"><b>Rajiv Gandhi Centre for Aquaculture (RGCA)</b>\n
+Technology Transfer Training and Administrative Complex (TTTAC)\n
+Door No.3/197, Poompuhar Road,\n
+Karaimedu Village, Sattanathapuram PO,\n
+Nagapatinam District\n
+Sirkali Taluk – 609 109, Tamil Nadu.\n
+Tel: 91 4364 265200, 265207\n
+Fax: 91 4364 265218\n
+E-mail: rgca@mpeda.gov.in\n
+Website:www.rgca.org.in</string>
+
+
+    <string name="socitiestwo"><b>National Centre for Sustainable Aquaculture (NaCSA)</b>\n
+(MPEDA, Ministry of Commerce and Industry, Govt. of India)\n
+Door No. 70-1A-6/1,\n
+Vasireddy Vari Street,\n
+Beside Municipal Corporation High School,\n
+Ramanayyapeta,\n
+Kakinada-533003,East Godavari Dt.,\n
+Andhra Pradesh.\n
+Mobile: +91 7382221795\n
+Tel: +91 884 2350655\n
+E-mail: nacsa@mpeda.gov.in</string>
+
+    <string name="socitiesthree"><b>Network for Fish Quality Management and Sustainable Fishing (NETFISH)</b>\n
+Mulavukad Panchayath, Ward No.XII,\n
+Vallarpadam PO,\n
+Kochi – 682 504, Kerala\n
+Tel: 91 484 2982205\n
+E-mail:netfish@mpeda.gov.in</string>
+
+    <string name="socitiesfour"><b>Multi Species Aquaculture Complex (MAC)</b>\n
+Mulavukad Panchayath, Ward No.XII,Vallarpadam PO,\n
+Kochi – 682 504,Kerala.\n
+Tel: +91 484 2975595\n
+E-mail: mac@mpeda.gov.in</string>
+
+
+    <string name="otherreq">Other Requirements</string>
+    <string name="str24hrpower">24hr Power</string>
+    <string name="strfreezer">Freezer</string>
+
+    <string name="Strfascianame">Fascia Name<font color='#FF0000'>*</font></string>
+    <string name="delegate_typ">Delegate Type</string>
+    <string name="stall_type">Stall Type</string>
+    <string name="strmaxdelegate">Maximum Number of Delegates in Each Stall category allowed</string>
+    <string name="maxcatgory"> Category A - 24\t Category B -12 \t Category C - 8\nCategory D - 4\t Category E -2</string>
+
+    <string name="rupeeicon">&#xf156;</string>
+    <string name="Rs">\u20B9</string>
+    <string name="title_activity_my_nav">MyNavActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="title_activity_lead_aquistion">LeadAquistionActivity</string>
+    <string name="strverify">Verify Your Detail</string>
+    <string name="stractivate">Activate Your Account by Scanning Code</string>
+    <string name="strdelegatecode">Delegate Code</string>
+    <string name="strlogdelegatename">Delegate Name</string>
+    <string name="strlogmobile">Mobile No</string>
+    <string name="strlogemail">Email ID</string>
+    <string name="strlead">LEADS</string>
+    <string name="strseminar">SEMINAR</string>
+    <string name="strfeedback">FEEDBACK</string>
+    <string name="strleadadaptername">Name</string>
+    <string name="network_string">Oops!! No Internet Connection.</string>
+
+    <string name="stractivatetext">Activate your account by\n\t\t\t\t\tscanning code</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="termsandconditions"><b>Terms and Conditions for Exhibitors</b></string>
+    <string name="conditionone"><b>1.</b> 23rd India International Seafood Show 2023 will be organized in Biswa Bangla Mela Prangan, Kolkata,\n India from 15th - 17th February 2023.</string>
+    <string name="conditiontwo"><b>2.</b> The Exhibitors shall adhere to the exhibition manual (Available on Website: www.indianseafoodexpo.com).</string>
+    <string name="conditionthree"><b>3.</b> Exhibitor may book any number of stalls. Stalls will be allotted on a first-come-first served basis.</string>
+    <string name="conditionfour"><b>4.</b> GST applicable will be additional to the fees mentioned. For the stall registration within Kolkata, the GST should be in SGST (9%) &amp; CGST (9%), whereas for the stalls outside Kolkata, it should be IGST (18%).</string>
+    <string name="conditionfive"><b>5.</b> Fee once paid will not be refunded.</string>
+    <string name="conditionsix"><b>6.</b> The Organizers will provide standard fascia with company name for shell scheme.</string>
+    <string name="conditionseven"><b>7.</b> 2 free exhibitor passes will be provided per 9 sq m stall booked.</string>
+    <string name="conditioneight"><b>8.</b> For each 3X3 m shell scheme stall, one counter table, one round table, 3 chairs, one power outlet, (5A, 230 V), three spot lights and one waste basket.</string>
+    <string name="conditionnine"><b>9.</b> 25 free passes for one time entry will be provided to each exhibitor.</string>
+    <string name="conditionten"><b>10.</b> Exhibitors opting for raw space need to inform the Organizers by 10th January 2023 along with a layout plan for approval.</string>
+    <string name="condition11"><b>11.</b> Exhibitor can order additional furniture/other items/ additional electricity requirements directly with the official stall contractor. Extra charges apply for additional requirements.</string>
+    <string name="condition12"><b>12.</b> For raw space the stall will behanded over to the Exhibitors on 12/02/2023 at 10.00am and for shell scheme the stall will behanded over to Exhibitor on 14/02/2023 by 10:00 am.</string>
+    <string name="condition13"><b>13.</b> Heavy machinery for display needs to be placed inside before 12 PM on 11/02/2023.</string>
+    <string name="condition14"><b>14.</b> Furnishing of stall shall be completed and all materials that are not for use should be removed by 18.00 hrs on 14/02/2023.</string>
+    <string name="condition15"><b>15.</b> The name of the Exhibit or registered on or before 20th January 2023 only will be published in the show catalogue.</string>
+    <string name="condition16"><b>16.</b> Show Timings: 10:00am-06:00pm (15th&amp;16th February) 10:00am-04:00pm(17thFebruary).</string>
+    <string name="condition17"><b>17.</b> Stall Delegates are entitled to participate in the technical sessions arranged by the Organizers.</string>
+    <string name="condition18"><b>18.</b> Exhibitors should participate in the show without causing any disturbance to neighboring stalls.</string>
+    <string name="condition19"><b>19.</b> Any cultural performance within the booth is to be limited within the scope of the show, that too with the prior permission from the organizer.</string>
+    <string name="condition20"><b>20.</b> Confirmation of Stall reservations will be sent by E-mail.</string>
+    <string name="condition21"><b>21.</b> Though the fair authorities will be providing general security, the fair authorities will not be responsible for any damage/loss of any article/property kept in the stall.</string>
+    <string name="condition22"><b>22.</b> All products shall be exhibited only with in the stall.</string>
+    <string name="condition23"><b>23.</b> The Organizers reserve the right to make such changes in stall position, site layout, floor plan and other details as they consider fit in the overall interest and safety precautions of the exhibition and adhering to the norms of the Local Governing body.</string>
+    <string name="condition24"><b>24.</b> The Exhibitor shall be liable to pay for any damages caused to the stall or equipment allotted to him. Any such damages shall be assessed by the Organizers and their decision on the charges to be paid by the Exhibitor shall be final.</string>
+    <string name="condition25"><b>25.</b> Jurisdiction in any case of dispute will be Ernakulam, Kerala, India.</string>
+
+
+</resources>

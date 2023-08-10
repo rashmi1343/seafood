@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/header_relative"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@android:color/holo_blue_light">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Countries"
+            android:textSize="18sp"
+            android:fontFamily="monospace"
+            android:layout_centerInParent="true"
+            android:textColor="@android:color/white"></TextView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/search_layout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/header_relative"
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        android:background="@drawable/search_layout">
+
+        <ImageView
+            android:id="@+id/search_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_search"
+            android:layout_centerVertical="true"></ImageView>
+
+        <EditText
+            android:id="@+id/edit_search"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:layout_toRightOf="@+id/search_img"
+            android:layout_marginBottom="7dp"
+            android:hint="Search Countries"
+            android:paddingLeft="10dp"></EditText>
+
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/country_recycler"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/search_layout"
+        android:layout_margin="10dp"
+        android:layout_above="@id/bottom_layout"
+        android:layout_height="wrap_content"></androidx.recyclerview.widget.RecyclerView>
+
+    <RelativeLayout
+        android:id="@+id/bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.2dp"
+            android:background="@color/color_grey"></View>
+
+        <TextView
+            android:id="@+id/cancel_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:layout_margin="10dp"
+            android:layout_centerVertical="true"
+            android:textSize="18sp"></TextView>
+
+        <TextView
+            android:id="@+id/ok_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Okay"
+            android:layout_margin="10dp"
+            android:textColor="@android:color/holo_blue_light"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:textSize="18sp"></TextView>
+
+    </RelativeLayout>
+
+</RelativeLayout>

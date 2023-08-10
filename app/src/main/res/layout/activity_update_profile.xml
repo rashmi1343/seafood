@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.UpdateProfileActivity">
+
+    <LinearLayout
+        android:id="@+id/main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:id="@+id/feedback_heading_layout"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="@color/color_header">
+
+            <ImageView
+                android:id="@+id/back_profile_update"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:src="@mipmap/left_arrow" />
+
+<!--            <ImageView-->
+<!--                android:layout_width="200dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_centerInParent="true"-->
+<!--                android:layout_marginStart="10dp"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:layout_marginEnd="10dp"-->
+<!--                android:layout_marginBottom="10dp"-->
+<!--                android:src="@drawable/home_logo" />-->
+
+            <ImageView
+                android:id="@+id/imglogo"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/seafood_home_icon" />
+
+
+            <ImageView
+                android:id="@+id/close_profile_update"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:src="@mipmap/cross_icon" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1.2dp"
+        android:background="@color/light_grey"></View>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:text="Update Profile"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"></TextView>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1.2dp"
+        android:background="@color/color_silver"></View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Please Check Your Details"
+            android:textColor="#FF0C00"
+            android:textSize="18sp"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Delegate Name"
+            android:textSize="16sp"></TextView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10sp"
+            android:paddingBottom="20sp"
+            card_view:cardBackgroundColor="#fff">
+
+
+            <EditText
+                android:id="@+id/edt_delegate"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:background="@android:color/white"
+                android:drawableTint="@android:color/darker_gray"
+                android:inputType="textPersonName"
+                android:padding="2dp"
+                android:textColor="@color/color_silver"
+                android:textSize="16sp" />
+
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Email"
+            android:textSize="16sp"></TextView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10sp"
+            android:paddingBottom="20sp"
+            card_view:cardBackgroundColor="#fff">
+
+
+            <EditText
+                android:id="@+id/edt_email"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:background="@android:color/white"
+                android:drawableTint="@android:color/darker_gray"
+                android:inputType="textEmailAddress"
+                android:padding="2dp"
+                android:textColor="@color/color_silver"
+                android:textSize="16sp" />
+
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Mobile"
+            android:textSize="16sp"></TextView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10sp"
+            android:paddingBottom="20sp"
+            card_view:cardBackgroundColor="#fff">
+
+
+            <EditText
+                android:id="@+id/edt_mobile"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:background="@android:color/white"
+                android:drawableTint="@android:color/darker_gray"
+                android:inputType="number"
+                android:padding="2dp"
+                android:textColor="@color/color_silver"
+                android:textSize="16sp" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnverify"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="15dp"
+            android:background="#13BE31"
+            android:text="Verify Your Details"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"></androidx.appcompat.widget.AppCompatButton>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

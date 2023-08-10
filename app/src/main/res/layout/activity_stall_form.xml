@@ -1,0 +1,1386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/stall_form_parent_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@color/color_header">
+
+        <ImageView
+            android:id="@+id/bacformkicon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@mipmap/left_arrow" />
+
+        <!--        <ImageView-->
+        <!--            android:layout_width="200dp"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_centerInParent="true"-->
+        <!--            android:layout_marginStart="10dp"-->
+        <!--            android:layout_marginTop="10dp"-->
+        <!--            android:layout_marginEnd="10dp"-->
+        <!--            android:layout_marginBottom="10dp"-->
+        <!--            android:src="@drawable/home_logo" />-->
+
+
+        <ImageView
+            android:id="@+id/imglogo"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/seafood_home_icon" />
+
+
+        <ImageView
+            android:id="@+id/closeformicon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:src="@mipmap/cross_icon" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/header_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/form_stall_reg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/stall_reg"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/stall_domain_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="20dp"
+                    android:text="Text"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/rllineoneuserprofile"
+                android:layout_width="wrap_content"
+                android:layout_height="1dip"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="5sp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginRight="0dp"
+                android:background="#B3B3B3" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/selectCard_stall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/spinner_layout"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="10dp"
+                android:paddingBottom="20sp"
+                card_view:cardBackgroundColor="#fff">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/selected_stall_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="7dp"
+                        android:text="Selected Stalls"
+                        android:textColor="#000"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="1dip"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="7dp"
+                        android:background="#B3B3B3"></View>
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/selectedstall_recycler"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="15dp"
+                        android:nestedScrollingEnabled="false"></androidx.recyclerview.widget.RecyclerView>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginBottom="5dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Total"
+                            android:textColor="#000"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="(" />
+
+                        <ImageView
+                            android:id="@+id/currency_img_stall_form"
+                            android:layout_width="12dp"
+                            android:layout_height="12dp"
+                            android:layout_gravity="center_vertical"
+                            android:src="@drawable/rupee_indian" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=")" />
+
+                        <TextView
+                            android:id="@+id/total_stallform_txt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="7dp"
+                            android:text="00.00"
+                            android:textColor="#000"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/header_layout"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/enter_details_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Enter Your Details"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dip"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="7dp"
+                    android:background="#B3B3B3"></View>
+
+
+            </LinearLayout>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cddelegatecompany"
+                android:layout_width="match_parent"
+                android:layout_height="55sp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="10sp"
+                android:paddingBottom="20sp"
+                card_view:cardBackgroundColor="#fff">
+
+                <EditText
+                    android:id="@+id/edtcompany_stall"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@android:color/white"
+                    android:drawableTint="@android:color/darker_gray"
+                    android:hint="@string/strcompanyname"
+                    android:inputType="textPersonName"
+                    android:padding="2dp"
+                    android:textColor="@android:color/black"
+                    android:textColorHint="@android:color/black" />
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cdfascianame"
+                android:layout_width="match_parent"
+                android:layout_height="55sp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="10sp"
+                android:paddingBottom="20sp"
+                card_view:cardBackgroundColor="#fff">
+
+
+                <EditText
+                    android:id="@+id/edtfascianame"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@android:color/white"
+                    android:drawableTint="@android:color/darker_gray"
+                    android:hint="@string/Strfascianame"
+                    android:inputType="textPersonName"
+                    android:padding="2dp"
+                    android:textColor="@android:color/black"
+                    android:textColorHint="@android:color/black" />
+
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cdaddress"
+                android:layout_width="match_parent"
+                android:layout_height="55sp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="10sp"
+                android:paddingBottom="20sp"
+                card_view:cardBackgroundColor="#fff">
+
+                <EditText
+                    android:id="@+id/edtaddress_stall"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@android:color/white"
+                    android:drawableTint="@android:color/darker_gray"
+                    android:hint="@string/straddress"
+                    android:inputType="textEmailAddress"
+                    android:padding="2dp"
+                    android:textColor="@android:color/black"
+                    android:textColorHint="@android:color/black" />
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cdcity"
+                android:layout_width="match_parent"
+                android:layout_height="55sp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="10sp"
+                android:paddingBottom="20sp"
+                card_view:cardBackgroundColor="#fff">
+
+                <EditText
+                    android:id="@+id/edtcity_stall"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@android:color/white"
+                    android:drawableTint="@android:color/darker_gray"
+                    android:hint="@string/strcity"
+                    android:inputType="textPersonName"
+                    android:padding="2dp"
+                    android:textColor="@android:color/black"
+                    android:textColorHint="@android:color/black" />
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cdzippincode"
+                android:layout_width="match_parent"
+                android:layout_height="55sp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="10sp"
+                android:paddingBottom="20sp"
+                card_view:cardBackgroundColor="#fff">
+
+                <EditText
+                    android:id="@+id/edtpincode_stall"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@android:color/white"
+                    android:drawableTint="@android:color/darker_gray"
+                    android:hint="@string/strzipcode"
+                    android:inputType="number"
+                    android:padding="2dp"
+                    android:textColor="@android:color/black"
+                    android:textColorHint="@android:color/black" />
+
+
+            </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cdcountry"
+                android:layout_width="match_parent"
+                android:layout_height="55sp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="10sp"
+                android:paddingBottom="20sp"
+                card_view:cardBackgroundColor="#fff">
+
+
+                <EditText
+                    android:id="@+id/country_edit"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="#00000000"
+                    android:focusableInTouchMode="false"
+                    android:hint="@string/strCountry"
+                    android:padding="2dp"
+                    android:textColor="@android:color/black"
+                    android:textColorHint="@android:color/black"></EditText>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="55sp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="10sp"
+                android:paddingBottom="20sp"
+                card_view:cardBackgroundColor="#fff">
+
+
+                <EditText
+                    android:id="@+id/state_edit"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="#00000000"
+                    android:focusableInTouchMode="false"
+                    android:hint="@string/strstate"
+                    android:padding="2dp"
+                    android:textColor="@android:color/black"
+                    android:textColorHint="@android:color/black"></EditText>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="55sp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="10sp"
+                android:paddingBottom="20sp"
+                android:visibility="gone"
+                card_view:cardBackgroundColor="#fff">
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cdtelephone"
+                android:layout_width="match_parent"
+                android:layout_height="55sp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="10sp"
+                android:paddingBottom="20sp"
+                card_view:cardBackgroundColor="#fff">
+
+                <EditText
+                    android:id="@+id/edt_telephone_stall"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@android:color/white"
+                    android:drawableTint="@android:color/darker_gray"
+                    android:hint="@string/strtelephone"
+                    android:inputType="number"
+                    android:padding="2dp"
+                    android:textColor="@android:color/black"
+                    android:textColorHint="@android:color/black" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="55sp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="10sp"
+                android:paddingBottom="20sp"
+                card_view:cardBackgroundColor="#fff">
+
+                <EditText
+                    android:id="@+id/edtfax_stall"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@android:color/white"
+                    android:drawableTint="@android:color/darker_gray"
+                    android:hint="@string/strfax"
+                    android:inputType="number"
+                    android:padding="2dp"
+                    android:textColor="@android:color/black"
+                    android:textColorHint="@android:color/black" />
+
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="55sp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="10sp"
+                android:paddingBottom="20sp"
+                card_view:cardBackgroundColor="#fff">
+
+                <EditText
+                    android:id="@+id/edtmobileno_stall"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@android:color/white"
+                    android:drawableTint="@android:color/darker_gray"
+                    android:hint="@string/strmobile"
+                    android:inputType="number"
+                    android:maxLength="10"
+                    android:padding="2dp"
+                    android:textColor="@android:color/black"
+                    android:textColorHint="@android:color/black" />
+
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="55sp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="10sp"
+                android:paddingBottom="20sp"
+                card_view:cardBackgroundColor="#fff">
+
+                <EditText
+                    android:id="@+id/edtemailid_stall"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@android:color/white"
+                    android:drawableTint="@android:color/darker_gray"
+                    android:hint="@string/stremailid"
+                    android:inputType="textEmailAddress"
+                    android:padding="2dp"
+                    android:textColor="@android:color/black"
+                    android:textColorHint="@android:color/black" />
+
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="55sp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="10sp"
+                android:paddingBottom="20sp"
+                card_view:cardBackgroundColor="#fff">
+
+                <EditText
+                    android:id="@+id/edtgstno_stall"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@android:color/white"
+                    android:drawableTint="@android:color/darker_gray"
+                    android:hint="@string/strgstno"
+                    android:padding="2dp"
+                    android:singleLine="true"
+                    android:textColor="@android:color/black"
+                    android:textColorHint="@android:color/black" />
+
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="55sp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="10sp"
+                android:paddingBottom="20sp"
+                card_view:cardBackgroundColor="#fff">
+
+                <EditText
+                    android:id="@+id/edtproducts_stall"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@android:color/white"
+                    android:drawableTint="@android:color/darker_gray"
+                    android:hint="@string/strproduct"
+                    android:inputType="textPersonName"
+                    android:padding="2dp"
+                    android:textColor="@android:color/black"
+                    android:textColorHint="@android:color/black" />
+
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="10sp"
+                android:paddingBottom="20sp"
+                card_view:cardBackgroundColor="#fff">
+
+                <Spinner
+                    android:id="@+id/spnselectcategory_stall"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="55sp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="10sp"
+                android:paddingBottom="20sp"
+                card_view:cardBackgroundColor="#fff">
+
+                <EditText
+                    android:id="@+id/edtothercategory_stall"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@android:color/white"
+                    android:drawableTint="@android:color/darker_gray"
+                    android:hint="@string/strotherspecify"
+                    android:inputType="textPersonName"
+                    android:padding="2dp"
+                    android:textColor="@android:color/black"
+                    android:textColorHint="@android:color/black" />
+
+
+            </androidx.cardview.widget.CardView>
+
+
+            <TextView
+
+                android:id="@+id/tvotherreq"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20sp"
+                android:layout_marginTop="20sp"
+                android:text="@string/otherreq"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+            <LinearLayout
+                android:id="@+id/lrvotherrequirement"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20sp"
+                android:layout_marginTop="10sp"
+                android:orientation="vertical"
+
+                >
+
+
+                <LinearLayout
+                    android:id="@+id/lrhotherrequirement"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="left"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvPower"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="4dp"
+                        android:text="@string/str24hrpower"
+                        android:textSize="18sp"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/tvPowercheck"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="6dp"
+                        android:textSize="24sp" />
+
+
+                    <TextView
+                        android:id="@+id/tvfreezer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="4dp"
+                        android:text="@string/strfreezer"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/tvfreezerchk"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="6dp"
+                        android:textSize="24sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lrhotherrequirementrawspace"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="left"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvrawspace"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="4dp"
+                        android:text="@string/strrawspace"
+                        android:textSize="18sp"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/tvrawspacecheck"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginTop="6dp"
+                        android:textSize="24sp" />
+
+
+                    <TextView
+                        android:id="@+id/tvshellscheme"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="4dp"
+                        android:text="@string/strshellscheme"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/tvshellschemechk"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="6dp"
+                        android:textSize="24sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="55sp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="10sp"
+                android:paddingBottom="20sp"
+                card_view:cardBackgroundColor="#fff">
+
+                <EditText
+                    android:id="@+id/edtotherreqspecify"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@android:color/white"
+                    android:drawableTint="@android:color/darker_gray"
+                    android:hint="@string/otherreqspecify"
+                    android:inputType="textPersonName"
+                    android:padding="2dp"
+                    android:textColor="@android:color/black"
+                    android:textColorHint="@android:color/black" />
+
+
+            </androidx.cardview.widget.CardView>
+
+
+            <LinearLayout
+                android:id="@+id/llmpedaseaichk"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+
+                >
+
+
+                <TextView
+                    android:id="@+id/tvmpedaseairegchk"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/tvmpedaseairegmem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/strregmemeber"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/mpedaseaichk"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:orientation="horizontal"
+
+                >
+
+
+                <RadioGroup
+                    android:id="@+id/radioGroupmpedaseaichk"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingLeft="20dp">
+
+                    <RadioButton
+                        android:id="@+id/radiompeda"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@android:color/holo_blue_light"
+                        android:padding="10dp"
+                        android:text="@string/strmpeda"
+                        android:textColor="#000" />
+
+                    <RadioButton
+                        android:id="@+id/radioseai"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="24dp"
+                        android:buttonTint="@android:color/holo_blue_light"
+                        android:padding="10dp"
+                        android:text="@string/strseai"
+                        android:textColor="#000" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/mpedaseaichkcrd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="10dp"
+                android:paddingBottom="20sp"
+                card_view:cardBackgroundColor="#fff">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tventermpedaseainumbervalidity"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20sp"
+                        android:layout_marginTop="10sp"
+                        android:text="@string/strentermpeda"
+                        android:textColor="#000"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+
+                    <View
+                        android:id="@+id/mpedaseaichk_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="1dip"
+                        android:layout_marginLeft="12sp"
+                        android:layout_marginTop="5sp"
+                        android:layout_marginRight="12sp"
+                        android:background="#B3B3B3" />
+
+
+                    <TextView
+                        android:id="@+id/tvreggivempeda"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20sp"
+                        android:layout_marginTop="10sp"
+                        android:text="@string/strregmemmpeda"
+                        android:textColor="#000"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cdmpedaregno"
+                        android:layout_width="match_parent"
+                        android:layout_height="55sp"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="12dp"
+                        android:layout_marginBottom="10sp"
+                        android:paddingBottom="20sp"
+                        card_view:cardBackgroundColor="#fff">
+
+                        <TextView
+                            android:id="@+id/mpedaricon"
+                            android:layout_width="25dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="14dp"
+                            android:textSize="20dp" />
+
+                        <EditText
+                            android:id="@+id/editmpedaregnumber"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@android:color/white"
+                            android:drawableTint="@android:color/darker_gray"
+                            android:hint="@string/strmpedaregnumber"
+                            android:inputType="text"
+                            android:padding="2dp"
+                            android:textColor="@android:color/black"
+                            android:textColorHint="@android:color/black" />
+                    </androidx.cardview.widget.CardView>
+
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cdmpedaregdate"
+                        android:layout_width="match_parent"
+                        android:layout_height="55sp"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="12dp"
+                        android:layout_marginBottom="10sp"
+                        android:paddingBottom="20sp"
+                        card_view:cardBackgroundColor="#fff">
+
+                        <TextView
+                            android:id="@+id/datempedaicon"
+                            android:layout_width="25dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="14dp"
+                            android:textSize="20dp" />
+
+                        <EditText
+                            android:id="@+id/editmpedaregdate"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@android:color/white"
+                            android:drawableTint="@android:color/darker_gray"
+                            android:focusableInTouchMode="false"
+                            android:hint="@string/strdateformat"
+                            android:inputType="text"
+                            android:padding="2dp"
+                            android:textColor="@android:color/black"
+                            android:textColorHint="@android:color/black" />
+                    </androidx.cardview.widget.CardView>
+
+
+                    <TextView
+                        android:id="@+id/tvreggiveseai"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20sp"
+                        android:layout_marginTop="10sp"
+                        android:text="@string/strregseai"
+                        android:textColor="#000"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+
+                        />
+
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cdseairegno"
+                        android:layout_width="match_parent"
+                        android:layout_height="55sp"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="12dp"
+                        android:layout_marginBottom="10sp"
+                        android:paddingBottom="20sp"
+                        card_view:cardBackgroundColor="#fff">
+
+                        <TextView
+                            android:id="@+id/seaiicon"
+                            android:layout_width="25dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="14dp"
+                            android:textSize="20dp" />
+
+                        <EditText
+                            android:id="@+id/editseairegnumber"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@android:color/white"
+                            android:drawableTint="@android:color/darker_gray"
+                            android:hint="@string/strseairegnumber"
+                            android:inputType="text"
+                            android:padding="2dp"
+                            android:textColor="@android:color/black"
+                            android:textColorHint="@android:color/black" />
+                    </androidx.cardview.widget.CardView>
+
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cdseaidate"
+                        android:layout_width="match_parent"
+                        android:layout_height="55sp"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="12dp"
+                        android:layout_marginBottom="10sp"
+                        android:paddingBottom="20sp"
+                        card_view:cardBackgroundColor="#fff">
+
+                        <TextView
+                            android:id="@+id/dateseaiicon"
+                            android:layout_width="25dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="14dp"
+                            android:textSize="20dp" />
+
+                        <EditText
+                            android:id="@+id/editseairegdate"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@android:color/white"
+                            android:drawableTint="@android:color/darker_gray"
+                            android:focusableInTouchMode="false"
+                            android:hint="@string/strdateformat"
+                            android:inputType="text"
+
+                            android:padding="2dp"
+                            android:textColor="@android:color/black"
+                            android:textColorHint="@android:color/black" />
+                    </androidx.cardview.widget.CardView>
+
+
+                    <Button
+                        android:id="@+id/btnchkvalidity"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="12dp"
+                        android:layout_marginBottom="10sp"
+                        android:background="@android:color/holo_green_light"
+                        android:text="@string/chknovalidity"
+                        android:textAllCaps="false"
+                        android:textColor="#FFF" />
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+            <TextView
+
+                android:id="@+id/stall_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20sp"
+                android:layout_marginTop="10sp"
+                android:text="@string/stalldetail"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/stall_view"
+                android:layout_width="wrap_content"
+                android:layout_height="1dip"
+                android:layout_marginLeft="12sp"
+                android:layout_marginTop="10sp"
+                android:layout_marginRight="12sp"
+                android:background="#B3B3B3"
+
+                />
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/stall_reg_card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="10dp"
+                android:paddingBottom="20sp"
+                card_view:cardBackgroundColor="#fff">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="55sp"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="12dp"
+                        android:layout_marginBottom="10sp"
+                        android:paddingBottom="20sp"
+                        card_view:cardBackgroundColor="#fff">
+
+                        <EditText
+                            android:id="@+id/edit_stall_delegate_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@android:color/white"
+                            android:drawableTint="@android:color/darker_gray"
+                            android:hint="@string/strdelgatename"
+                            android:inputType="textEmailAddress"
+                            android:padding="2dp"
+                            android:textColor="@android:color/black"
+                            android:textColorHint="@android:color/black" />
+
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="55sp"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="12dp"
+                        android:layout_marginBottom="10sp"
+                        android:paddingBottom="20sp"
+                        card_view:cardBackgroundColor="#fff">
+
+                        <EditText
+                            android:id="@+id/edit_stall_designation"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@android:color/white"
+                            android:drawableTint="@android:color/darker_gray"
+                            android:hint="@string/strdesgination"
+                            android:inputType="text"
+                            android:padding="2dp"
+                            android:textColor="@android:color/black"
+                            android:textColorHint="@android:color/black" />
+
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="55sp"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="12dp"
+                        android:layout_marginBottom="10sp"
+                        android:paddingBottom="20sp"
+                        card_view:cardBackgroundColor="#fff">
+
+                        <EditText
+                            android:id="@+id/edit_stall_mobile"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@android:color/white"
+                            android:drawableTint="@android:color/darker_gray"
+                            android:hint="@string/strPhone"
+                            android:inputType="number"
+                            android:maxLength="10"
+                            android:padding="2dp"
+                            android:textColor="@android:color/black"
+                            android:textColorHint="@android:color/black" />
+
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="55sp"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="12dp"
+                        android:layout_marginBottom="10sp"
+                        android:paddingBottom="20sp"
+                        card_view:cardBackgroundColor="#fff">
+
+                        <EditText
+                            android:id="@+id/edit_stall_email"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@android:color/white"
+                            android:drawableTint="@android:color/darker_gray"
+                            android:hint="@string/strEmail"
+                            android:padding="2dp"
+                            android:textColor="@android:color/black"
+                            android:textColorHint="@android:color/black" />
+
+
+                    </androidx.cardview.widget.CardView>
+
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="55dp"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="12dp"
+                        android:layout_marginBottom="10sp"
+                        android:paddingBottom="20sp"
+                        card_view:cardBackgroundColor="#fff">
+
+                        <Spinner
+                            android:id="@+id/spin_to_select_stall"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <LinearLayout
+                android:id="@+id/checkbox_Layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/check_box"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="#17a2b8"
+
+                    android:clickable="true" />
+
+
+                <TextView
+                    android:id="@+id/Terms_and_condition_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="4dp"
+                    android:gravity="start"
+
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/new_stall_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/ic_add_circle">
+
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/txtadddelegate_stall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="5dp"
+                    android:text="Add New Delegate"
+                    android:textColor="@android:color/holo_green_light"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/stall_detail_recycler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="10dp"
+                android:nestedScrollingEnabled="false"></androidx.recyclerview.widget.RecyclerView>
+
+            <Button
+                android:id="@+id/payment_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="20sp"
+                android:background="@android:color/holo_green_light"
+                android:text="Confirm &amp; Pay"
+                android:textAllCaps="false"
+                android:textColor="#FFF" />
+
+
+            <TextView
+                android:id="@+id/tvmaxdelegate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="5dp"
+
+                android:text="@string/strmaxdelegate"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvvaldelegate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="5dp"
+                android:lineSpacingExtra="1dp"
+                android:text="@string/maxcatgory"
+                android:textColor="#575758"
+                android:textSize="14sp" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

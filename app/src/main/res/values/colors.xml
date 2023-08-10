@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFF</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="color_delegate">#13be31</color>
+    <color name="color_stall">#495261</color>
+    <color name="color_leads">#2376ff</color>
+    <color name="color_show">#3a0089</color>
+    <color name="color_venue">#f00a21</color>
+    <color name="color_organize">#dc1041</color>
+    <color name="color_training">#2736b7</color>
+    <color name="color_feedback">#9334c4</color>
+    <color name="color_locate">#51c956</color>
+    <color name="color_contact">#f7851a</color>
+    <color name="color_grey">#DCDCDC</color>
+    <color name="color_page">#fafafa</color>
+    <color name="light_grey">#ededed</color>
+    <color name="color_header">#ffffff</color>
+    <color name="header_color">#154b95</color>
+    <color name="login_color">#016be3</color>
+    <color name="footer_color">#568de8</color>
+    <color name="color_pad">#E85851</color>
+    <color name="color_silver">#808080</color>
+    <color name="ocean_green">#4ca973</color>
+</resources>

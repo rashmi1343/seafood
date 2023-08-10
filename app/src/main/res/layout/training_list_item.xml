@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        app:cardCornerRadius="7dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:weightSum="2"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/timings_txt"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:layout_weight="0.7"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"
+                    android:textAllCaps="false"
+                    android:text="Timings"></TextView>
+
+
+                <TextView
+                    android:id="@+id/txtvw_timing"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:layout_weight="1.3"
+                    android:textColor="@android:color/darker_gray"
+                    android:layout_toRightOf="@id/timings_txt"
+                    android:textAllCaps="false"
+                    android:text="2.00 - 2.15 PM"></TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:layout_marginRight="10dp">
+
+                <TextView
+                    android:id="@+id/topics_txt"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:layout_weight="0.7"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"
+                    android:textAllCaps="false"
+                    android:text="Topics"></TextView>
+
+
+                <TextView
+                    android:id="@+id/txtvw_topics"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:layout_weight="1.3"
+                    android:layout_toRightOf="@+id/topics_txt"
+                    android:textColor="@android:color/darker_gray"
+                    android:textAllCaps="false"
+                    android:text="Key note address"></TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:weightSum="2"
+                android:orientation="horizontal"
+                android:layout_marginRight="10dp">
+
+                <TextView
+                    android:id="@+id/speaker_txt"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:layout_weight="0.7"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"
+                    android:textAllCaps="false"
+                    android:text="Speakers"></TextView>
+
+
+                <TextView
+                    android:id="@+id/txtvw_speaker"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:layout_weight="1.3"
+                    android:textColor="@android:color/darker_gray"
+                    android:textAllCaps="false"
+                    android:text="Dr. C N Ravisankar"></TextView>
+
+            </LinearLayout>
+
+            <CheckBox
+                android:id="@+id/timing_check"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:buttonTint="@android:color/holo_blue_light"
+                android:layout_marginRight="10dp"></CheckBox>
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
